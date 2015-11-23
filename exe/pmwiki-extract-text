@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
 require "pmwiki/extract/text"
+Pmwiki::Extract::Text.run!(ARGV.dup)
